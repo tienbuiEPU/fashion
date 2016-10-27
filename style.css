@@ -1,0 +1,47 @@
+* { margin: 0px; padding-top: 0px; }
+body { background: none; }
+#container { width: 100%; overflow: auto; }
+#header { width: 100%; overflow: auto; }
+#header-top {	width: 100%; height: 70px; background-color: white; line-height: 70px;}
+#_header-top { width: 1000px; margin: auto; }
+#logo { float: left; width: 250px; background: none;display: inline-block;}
+#logo h1 { color: #31C5B7; }
+#search { width: 500px ; background-color: none; display: inline-block;}
+#search input { margin: auto ; width: 400px;height: 30px; margin-left: 50px; background-image: url(http://ii.alatest.com/css/iphone/search_icon.gif); background-repeat: no-repeat; background-size: 15px 15px; background-position: right; }
+#icon { float: right; width: 250px; background-color: none;}
+#icon p { float: right; font-size: 40px; font-weight: bold;}
+#header-center { width: 100%; overflow: auto; background-color:  #4BCFC1; height: 40px; margin-bottom: 5px;}
+#menu { width: 1000px; margin: auto; line-height: 40px; background-color: none;}
+#_menu { list-style-type: none;}
+#_menu li { float: left; border-right: 5px solid white;}
+#_menu li:last-child { border-right: none; }
+#_menu li a { text-decoration: none; color: white; font-weight: bold; display: block;  padding: 0px 5px 0px 5px;}
+#_menu li a:hover { background-color: white; color: #3DC4B6;}
+#header-bottom { width: 100%; overflow: hidden; background: #3DC4B6; height: 300px;}
+#slide { width: 1000px; margin: auto; height: 100%; background: lightblue }
+#content { width: 100%; overflow: auto;  }
+#content-top { width: 1000px; overflow: auto; margin: auto; }
+.content-img { width: 300px; overflow: auto; float: left; margin: 0px 16px; border-left: 2px solid silver;}
+.content-img:first-child { border-left: none; }
+.img { float: left; }
+.content-img img { width: 200px; height: 250px; }
+.note { width: 100px; float: right; text-align: center; color: silver;margin-top: 100px;	}
+.note button { width: 80px; height: 40px; border-radius: 5px; font-weight: bold;color: white; background-color: #4BC49B;border: 2px solid #4BC49B; font-size: 20px;}
+#content-bottom { width: 100%; overflow: auto; }
+.title-content  { width: 100%; background-color: #3DC4B6; height: 50px; line-height: 50px; color: white; }
+.title-content h2 { padding-left: 150px; }
+.product { width: 1000px; overflow: auto; margin: auto; }
+.row { width: 100%;overflow: auto; margin: 15px 0px;}
+.box { width: 250px; overflow: auto; background-color: none; float: left; margin: 30px 40px; border: 1px solid silver; border-bottom: 5px solid #45B891}
+.img-product img { width: 250px; height: 150px; border: none; }
+.name-product { width: 200px; background-color: none; margin: auto;}
+.name-product h4 { text-align: center; color: silver; 	 }
+.name-product p {display: inline-block; color: silver; font-weight: bold;padding-left: 35px;}
+.name-product button { width: 80px; height: 30px; background-color: #63C2A2; font-weight: bold; border: none; color: white; border-radius: 5px; margin-bottom: 10px;}
+#footer { width: 100%; overflow: auto; background-color: #3CC3B5}
+._footer { width: 1000px; overflow: auto;  margin: auto; padding: 20px 0px;}
+.column { width: 240px; overflow: auto; margin: 5px; background-color: none; float: left;}
+.column ul { list-style-type: none; }
+.column h3 { color: white; text-align: center; font-size: 20px; margin-bottom: 20px;}
+.column a { text-decoration: none;color: white;  }
+#copyright { width: 100%; height: 50px; line-height: 50px; background-color: #2EA89B; text-align: center; font-size: 20px; color: white; }
